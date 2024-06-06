@@ -148,6 +148,7 @@ footer>p {
     nav {
         display: grid;
         justify-content: start;
+        width: 100%;
     }
     nav>section {
         display: grid;
