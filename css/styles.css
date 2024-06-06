@@ -63,12 +63,17 @@ nav>section {
 }
 
 .banner-container{
-    height: 800px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
     border: 1px solid black;
 }
 
 .banner-img {
-    height: 800px;
+    width: 100%;
+    height: 500px;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -162,6 +167,23 @@ footer>p {
         text-decoration: none;
         margin-top: 5px;
         font-size: larger;
+    }
+    .banner-container{
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: auto;
+        object-fit: contain;
+        border: 1px solid black;
+    }
+    
+    .banner-img {
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        display: none;
     }
     .character{
         border: 1px solid mediumpurple;
